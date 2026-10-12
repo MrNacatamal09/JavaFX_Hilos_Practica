@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.*?>
 
 <VBox xmlns:fx="http://javafx.com/fxml"
-      fx:controller="ni.edu.uam.practicahilos.practicahilosjavafx.ProcesadorController"
+      fx:controller="ni.edu.uam.practicahilos.ProcesadorController"
       alignment="CENTER" spacing="20"
       prefWidth="600" prefHeight="480">
 
