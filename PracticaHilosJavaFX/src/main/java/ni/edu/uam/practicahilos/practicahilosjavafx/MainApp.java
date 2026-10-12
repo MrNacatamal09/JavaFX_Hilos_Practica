@@ -16,12 +16,11 @@ public class MainApp extends Application {
 
         Scene scene = new Scene(loader.load());
 
-        stage.setTitle("Práctica - Hilos en JavaFX");
+        stage.setTitle("Monitor de procesos - JavaFX");
         stage.setScene(scene);
         stage.show();
 
-        ProcesadorController controller =
-                loader.getController();
+        ProcesadorController controller = loader.getController();
 
         stage.setOnCloseRequest(event ->
                 controller.detenerAlCerrar()
